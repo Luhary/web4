@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 24px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navigation {
+    display: flex;
+    gap: 32px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-button {
+    border: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: #2563eb;
+    color: white;
+}
+
+.hero {
+    min-height: calc(100vh - 88px);
+    display: flex;
+    align-items: center;
+}
+
+.hero-wrapper {
+    max-width: 700px;
+}
+
+.hero-label {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background-color: rgba(37, 99, 235, 0.2);
+    color: #60a5fa;
+    margin-bottom: 24px;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #cbd5e1;
+    margin-bottom: 40px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 16px;
+}
+
+.primary-button {
+    border: none;
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+}
+
+.secondary-button {
+    border: 1px solid #334155;
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
