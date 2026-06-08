@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AIFlow</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </head>
 <body>
     <header class="header">
@@ -215,7 +216,9 @@
                             </div>
                         </div>
 
-                        <div class="chart-placeholder"></div>
+                        <div class="chart-wrapper">
+                            <canvas id="dashChart"></canvas>
+                        </div>
                     </div>
 
                     <div class="floating-card card-top">
@@ -227,6 +230,95 @@
                     <div class="floating-card card-bottom">
                         <span>
                             AI анализ завершён
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">
+                    ОТЗЫВЫ
+                </span>
+
+                <h2>
+                    Нам доверяют сотни компаний
+                </h2>
+
+                <p>
+                    Бизнесы разных размеров используют AIFlow для автоматизации процессов.
+                </p>
+            </div>
+
+            <div class="companies">
+                <div class="company-item">
+                    TECHCORP
+                </div>
+
+                <div class="company-item">
+                    STARTIFY
+                </div>
+
+                <div class="company-item">
+                    CLOUDX
+                </div>
+
+                <div class="company-item">
+                    FINTECH
+                </div>
+
+                <div class="company-item">
+                    NEXTLAB
+                </div>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card reveal">
+                    <p>
+                        AIFlow помог нам сократить время обработки заявок более чем на 60%.
+                    </p>
+
+                    <div class="review-author">
+                        <strong>
+                            Александр Иванов
+                        </strong>
+
+                        <span>
+                            CEO TechCorp
+                        </span>
+                    </div>
+                </div>
+
+                <div class="review-card reveal">
+                    <p>
+                        Интеграция заняла всего несколько часов, а результат увидели уже в первую неделю.
+                    </p>
+
+                    <div class="review-author">
+                        <strong>
+                            Мария Смирнова
+                        </strong>
+
+                        <span>
+                            COO Startify
+                        </span>
+                    </div>
+                </div>
+
+                <div class="review-card reveal">
+                    <p>
+                        Отличный инструмент для анализа данных и автоматизации поддержки клиентов.
+                    </p>
+
+                    <div class="review-author">
+                        <strong>
+                            Дмитрий Козлов
+                        </strong>
+
+                        <span>
+                            Product Manager CloudX
                         </span>
                     </div>
                 </div>
